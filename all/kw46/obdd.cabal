@@ -1,0 +1,22 @@
+name:                 obdd
+version:              0.1.0.0
+synopsis:             
+-- description:
+-- license:
+-- license-file:
+homepage:             
+author:               
+maintainer:           
+category:             Math
+-- copyright:
+build-type:           Simple
+-- extra-source-files:
+cabal-version:        >=1.10
+
+executable obdd
+  main-is:              Main.hs
+  -- other-modules:
+  -- other-extensions:
+  build-depends:        base >= 4.7 && < 5,obdd >=0.3.3,process,dot,containers
+  hs-source-dirs:       src
+  default-language:     Haskell2010

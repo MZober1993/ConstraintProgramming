@@ -1,4 +1,4 @@
-module Main where
+module Ramsey where
 
 num p q = 10 * p + q
 n x = negate x
